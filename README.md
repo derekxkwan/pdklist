@@ -1,5 +1,4 @@
 # pdklist
-    t_float target = x->x_target;
 some of my own pd list abstractions
 
 
