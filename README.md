@@ -1,4 +1,5 @@
 # pdklist
+    t_float target = x->x_target;
 some of my own pd list abstractions
 
 
@@ -7,4 +8,5 @@ pdkl-faro - faro shuffle
 pdkl-fill - accumulate entries of a list
 pdkl-ref - get nth entry of a list
 pdkl-rfill - accumulate entries of a list in reverse
-pdkf-setf! - replace nth entry of a list with float
+pdkl-setf! - replace nth entry of a list with float
+pdkl-swap - swap elements at two indices
