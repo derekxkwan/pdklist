@@ -1,0 +1,12 @@
+#N canvas 154 377 854 318 12;
+#X text 23 129 pdkl-cup - count up from lower to upper-1;
+#X text 23 152 pdkl-faro - faro shuffle;
+#X text 23 176 pdkl-fill - accumulate entries of a list;
+#X text 22 203 pdkl-ref - get nth entry of a list;
+#X text 19 226 pdkl-rfill - accumulate entries of a list in reverse
+;
+#X text 22 249 pdkf-setf! - replace nth entry of list with float;
+#X text 23 6 pdklist;
+#X text 19 28 a bunch of list abstractions;
+#X text 640 3 Derek Kwan 2016;
+#X text 645 24 gpl v 3;
