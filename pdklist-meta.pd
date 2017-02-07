@@ -1,4 +1,4 @@
-#N canvas 152 379 854 318 12;
+#N canvas 150 381 854 318 12;
 #X text 23 129 pdkl-cup - count up from lower to upper-1;
 #X text 23 152 pdkl-faro - faro shuffle;
 #X text 23 176 pdkl-fill - accumulate entries of a list;
@@ -10,4 +10,4 @@
 #X text 640 3 Derek Kwan 2016;
 #X text 645 24 gpl v 3;
 #X text 22 249 pdkl-setf! - replace nth entry of list with float;
-#X text 23 274 pdkl-swap - swap two indices;
+#X text 23 274 pdkl-swapf - swap floats at two indices;
