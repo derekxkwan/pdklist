@@ -5,6 +5,7 @@ some of my own pd list abstractions
 - pdkl-cup - count up from lower to upper - 1
 - pdkl-faro - faro shuffle
 - pdkl-fill - accumulate entries of a list
+- pdkl-fyshuf - fisher-yates shuffle
 - pdkl-map - list mapper
 - pdkl-reduce - list reducer
 - pdkl-ref - get nth entry of a list
