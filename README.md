@@ -13,5 +13,6 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-rfill - accumulate entries of a list in reverse
 - pdkl-rmap - reversed list mapper
 - pdkl-setf! - replace nth entry of a list with float
+- pdkl-seq1 - list sequencer
 - pdkl-swapf - swap floats at two indices
 
