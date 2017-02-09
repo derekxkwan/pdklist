@@ -1,5 +1,5 @@
 # pdklist
-some of my own pd list abstractions
+gpl v 3 pd vanilla list abstractions
 
 
 - pdkl-cup - count up from lower to upper - 1
