@@ -1,4 +1,4 @@
-#N canvas 521 366 910 621 12;
+#N canvas 517 370 910 621 12;
 #X obj 365 246 list;
 #X obj 365 304 list;
 #X obj 361 130 list prepend;
@@ -9,12 +9,13 @@
 #X obj 358 60 inlet;
 #X text 347 34 input;
 #X obj 365 329 outlet;
-#X text 23 19 pdklist-fill;
 #X text 22 45 fills a list with inputs;
-#X text 691 22 Derek Kwan 2016;
-#X text 693 44 gpl v 3;
-#X text 13 108 INLETS:;
+#X text 693 68 gpl v 3;
+#X text 10 108 INLETS:;
 #X text 8 131 input/flush/clear;
+#X text 691 22 Derek Kwan 2017;
+#X text 691 45 pdklist;
+#X text 23 19 pdkl-fill;
 #X connect 0 0 1 1;
 #X connect 0 0 2 1;
 #X connect 1 0 9 0;

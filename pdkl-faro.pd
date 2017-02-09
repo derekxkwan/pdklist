@@ -1,4 +1,4 @@
-#N canvas 962 221 841 565 12;
+#N canvas 958 225 841 565 12;
 #X obj 442 161 list length;
 #X obj 442 186 / 2;
 #X obj 480 214 i;
@@ -15,13 +15,16 @@
 #X obj 412 252 + 1;
 #X obj 316 509 outlet;
 #X obj 345 305 sel 1;
-#X text 20 15 pdkl-faro;
 #X text 18 41 faro shuffle;
-#X text 650 15 Derek Kwan 2016;
-#X text 655 40 gpl v 3;
+#X text 655 53 gpl v 3;
 #X text 14 86 INLET:;
-#X text 10 108 list;
 #X obj 323 28 inlet;
+#X text 650 15 Derek Kwan 2017;
+#X text 651 34 pdklist;
+#X text 10 108 input;
+#X text 12 168 OUTLET:;
+#X text 15 190 output;
+#X text 20 15 pdkl-faro;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 10 1;
@@ -48,4 +51,4 @@
 #X connect 13 0 15 1;
 #X connect 15 0 3 1;
 #X connect 15 0 11 1;
-#X connect 22 0 9 0;
+#X connect 19 0 9 0;

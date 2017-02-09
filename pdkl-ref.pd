@@ -1,4 +1,4 @@
-#N canvas 855 209 752 591 12;
+#N canvas 851 213 752 591 12;
 #X obj 318 207 list split 1;
 #X obj 242 60 inlet;
 #X obj 318 232 outlet;
@@ -8,14 +8,17 @@
 #X obj 362 18 loadbang;
 #X obj 279 152 list split 0;
 #X obj 366 93 moses 0.1;
-#X text 16 9 pdkl-ref;
 #X text 15 42 get nth entry;
 #X text 12 111 INLETS:;
 #X text 17 133 list/nth;
 #X text 18 170 ARGS:;
 #X text 14 195 nth;
-#X text 547 22 Derek Kwan 2016;
-#X text 549 43 gpl v 3;
+#X text 549 72 gpl v 3;
+#X text 547 22 Derek Kwan 2017;
+#X text 549 46 pdklist;
+#X text 11 264 OUTLET:;
+#X text 13 286 output;
+#X text 16 9 pdkl-ref;
 #X connect 0 0 2 0;
 #X connect 1 0 7 0;
 #X connect 3 1 7 1;

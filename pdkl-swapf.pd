@@ -1,4 +1,4 @@
-#N canvas 609 206 1132 854 12;
+#N canvas 607 208 1132 854 12;
 #X obj 315 565 pdklist/pdkl-setf!;
 #X obj 305 400 pdklist/pdkl-ref;
 #X obj 533 436 pdklist/pdkl-ref;
@@ -23,8 +23,8 @@
 #X obj 399 10 inlet;
 #X obj 703 24 inlet;
 #X text 758 29 idx1;
-#X obj 867 24 inlet;
-#X text 920 23 idx2;
+#X obj 813 24 inlet;
+#X text 866 23 idx2;
 #X text 17 109 INLETS:;
 #X text 16 134 list/idx1/idx2;
 #X text 14 195 ARGTS:;
@@ -45,6 +45,9 @@
 #X obj 383 64 t l l;
 #X text 17 16 pdkl-swapf;
 #X text 11 37 swap floats at two indices;
+#X text 942 18 Derek Kwan 2017;
+#X text 946 41 pdklist;
+#X text 944 62 gpl v 3;
 #X connect 0 0 3 1;
 #X connect 0 0 37 0;
 #X connect 1 0 5 0;
