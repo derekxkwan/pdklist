@@ -1,4 +1,4 @@
-#N canvas 955 259 850 435 12;
+#N canvas 835 227 850 435 12;
 #X text 22 57 pdkl-cup - count up from lower to upper-1;
 #X text 22 107 pdkl-faro - faro shuffle;
 #X text 22 131 pdkl-fill - accumulate entries of a list;
@@ -8,8 +8,8 @@
 #X text 23 6 pdklist;
 #X text 19 28 a bunch of list abstractions;
 #X text 645 24 gpl v 3;
-#X text 20 306 pdkl-setf! - replace nth entry of list with float;
-#X text 15 354 pdkl-swapf - swap floats at two indices;
+#X text 20 327 pdkl-setf! - replace nth entry of list with float;
+#X text 15 392 pdkl-swapf - swap floats at two indices;
 #X text 21 81 pdkl-drip - output elements 1-by-1 forward;
 #X text 21 239 pdkl-rev - list reversal;
 #X text 640 3 Derek Kwan 2017;
@@ -17,4 +17,7 @@
 #X text 19 197 pdkl-reduce - list reducer;
 #X text 22 155 pdkl-fyshuf - fisher yates shuffle;
 #X text 22 282 pdkl-rmap - reversed list mapper;
-#X text 17 332 pdkl-seq1 - list sequencer;
+#X text 17 353 pdkl-seq1 - list sequencer;
+#X text 21 306 pdkl-set - replace nth elt with list w/ var size elts
+;
+#X text 16 375 pdkl-swap - swap var sized elts at two indices;
