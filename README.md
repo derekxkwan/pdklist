@@ -15,6 +15,6 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-set! - replace nth elt with list with variable sized elements
 - pdkl-setf! - replace nth entry of a list with float
 - pdkl-seq1 - list sequencer
-- pdkl-swapf - swap variable sized elements at two indices
+- pdkl-swap - swap variable sized elements at two indices
 - pdkl-swapf - swap floats at two indices
 
