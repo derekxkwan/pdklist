@@ -6,6 +6,8 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-faro - faro shuffle
 - pdkl-fill - accumulate entries of a list
 - pdkl-fyshuf - fisher-yates shuffle
+- pdkl-interl2 - interlace 2 lists
+- pdkl-interl3 - interlace 3 lists
 - pdkl-map - list mapper
 - pdkl-reduce - list reducer
 - pdkl-ref - get nth entry of a list
