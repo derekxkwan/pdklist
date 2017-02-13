@@ -20,4 +20,5 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-seq1 - list sequencer
 - pdkl-swap - swap variable sized elements at two indices
 - pdkl-swapf - swap floats at two indices
+- pdkl-symcmp - symbol comparator
 
