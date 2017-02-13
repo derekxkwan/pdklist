@@ -1,25 +1,26 @@
-#N canvas 831 231 854 511 12;
-#X text 22 57 pdkl-cup - count up from lower to upper-1;
-#X text 22 107 pdkl-faro - faro shuffle;
-#X text 22 131 pdkl-fill - accumulate entries of a list;
-#X text 25 238 pdkl-ref - get nth entry of a list;
-#X text 22 283 pdkl-rfill - accumulate entries of a list in reverse
+#N canvas 829 233 854 511 12;
+#X text 18 57 pdkl-cup - count up from lower to upper-1;
+#X text 14 128 pdkl-faro - faro shuffle;
+#X text 14 152 pdkl-fill - accumulate entries of a list;
+#X text 17 259 pdkl-ref - get nth entry of a list;
+#X text 14 304 pdkl-rfill - accumulate entries of a list in reverse
 ;
 #X text 23 6 pdklist;
 #X text 19 28 a bunch of list abstractions;
 #X text 645 24 gpl v 3;
-#X text 25 349 pdkl-setf! - replace nth entry of list with float;
-#X text 20 414 pdkl-swapf - swap floats at two indices;
-#X text 21 81 pdkl-drip - output elements 1-by-1 forward;
-#X text 26 261 pdkl-rev - list reversal;
+#X text 17 370 pdkl-setf! - replace nth entry of list with float;
+#X text 12 435 pdkl-swapf - swap floats at two indices;
+#X text 17 81 pdkl-drip - output elements 1-by-1 forward;
+#X text 18 282 pdkl-rev - list reversal;
 #X text 640 3 Derek Kwan 2017;
-#X text 22 175 pdkl-map - list mapper;
-#X text 24 219 pdkl-reduce - list reducer;
-#X text 22 155 pdkl-fyshuf - fisher yates shuffle;
-#X text 27 304 pdkl-rmap - reversed list mapper;
-#X text 22 375 pdkl-seq1 - list sequencer;
-#X text 26 328 pdkl-set - replace nth elt with list w/ var size elts
+#X text 14 196 pdkl-map - list mapper;
+#X text 16 240 pdkl-reduce - list reducer;
+#X text 14 176 pdkl-fyshuf - fisher yates shuffle;
+#X text 19 325 pdkl-rmap - reversed list mapper;
+#X text 14 396 pdkl-seq1 - list sequencer;
+#X text 18 349 pdkl-set - replace nth elt with list w/ var size elts
 ;
-#X text 21 397 pdkl-swap - swap var sized elts at two indices;
-#X text 24 198 pdkl-randi - list of random ints;
-#X text 22 434 pdkl-symcmp - symbol comparator;
+#X text 13 418 pdkl-swap - swap var sized elts at two indices;
+#X text 16 219 pdkl-randi - list of random ints;
+#X text 14 455 pdkl-symcmp - symbol comparator;
+#X text 14 107 pdkl-eltcmp - compare elements for equality;
