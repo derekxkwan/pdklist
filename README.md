@@ -3,6 +3,8 @@ gpl v 3 pd vanilla list abstractions
 
 
 - pdkl-cup - count up from lower to upper - 1
+- pdkl-eltcmp - element comparator
+- pdkl-eltsub - substitute matching elements of a list
 - pdkl-faro - faro shuffle
 - pdkl-fill - accumulate entries of a list
 - pdkl-fyshuf - fisher-yates shuffle
