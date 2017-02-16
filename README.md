@@ -25,4 +25,4 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-swap - swap variable sized elements at two indices
 - pdkl-swapf - swap floats at two indices
 - pdkl-symcmp - symbol comparator
-
+- pdkl-xrndelt- non-repeating random element from a list
