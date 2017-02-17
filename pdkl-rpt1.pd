@@ -1,11 +1,11 @@
-#N canvas 610 325 1268 615 12;
+#N canvas 608 327 1268 615 12;
 #X obj 322 92 t b l b;
 #X obj 275 145 list;
-#X obj 400 248 f;
-#X obj 449 246 + 1;
-#X obj 413 357 sel 1, f 13;
-#X obj 305 465 list split 1;
-#X obj 397 209 until;
+#X obj 438 275 f;
+#X obj 487 273 + 1;
+#X obj 451 384 sel 1, f 13;
+#X obj 305 465 list split 1, f 24;
+#X obj 390 229 until;
 #X obj 311 558 outlet;
 #X text 19 17 pdkl-rpt1;
 #X text 985 20 derek kwan 2017;
@@ -20,7 +20,7 @@
 #X obj 494 65 f \$1;
 #X obj 494 90 moses 1;
 #X msg 494 115 1;
-#X msg 452 189 0;
+#X msg 490 216 0;
 #X obj 639 132 inlet;
 #X obj 637 195 moses 1;
 #X msg 648 226 1;
@@ -33,9 +33,9 @@
 #X text 0 225 input/rpt times/num elts to rpt/;
 #X text 7 153 elt to rpt (idx 0);
 #X text 1 247 elt to rpt (idx 0);
-#X obj 375 314 t f b f, f 16;
+#X obj 413 341 t f b f, f 16;
 #X text 8 48 rpt x elts starting with y z times;
-#X obj 303 515 pdklist/pdkl-fill;
+#X obj 303 515 pdklist/pdkl-fill, f 40;
 #X connect 0 0 6 0;
 #X connect 0 1 1 1;
 #X connect 0 2 21 0;
@@ -65,6 +65,7 @@
 #X connect 27 0 28 0;
 #X connect 28 0 29 1;
 #X connect 29 1 5 0;
+#X connect 29 2 6 1;
 #X connect 34 0 4 0;
 #X connect 34 1 1 0;
 #X connect 34 2 2 1;

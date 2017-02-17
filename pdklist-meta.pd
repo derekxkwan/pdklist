@@ -1,4 +1,4 @@
-#N canvas 817 245 838 692 12;
+#N canvas 815 247 838 692 12;
 #X text 18 57 pdkl-cup - count up from lower to upper-1;
 #X text 14 186 pdkl-faro - faro shuffle;
 #X text 14 210 pdkl-fill - accumulate entries of a list;
@@ -8,8 +8,8 @@
 #X text 23 6 pdklist;
 #X text 19 28 a bunch of list abstractions;
 #X text 645 24 gpl v 3;
-#X text 17 452 pdkl-setf! - replace nth entry of list with float;
-#X text 8 561 pdkl-swapf - swap floats at two indices;
+#X text 19 475 pdkl-setf! - replace nth entry of list with float;
+#X text 10 584 pdkl-swapf - swap floats at two indices;
 #X text 17 114 pdkl-drip - output elements 1-by-1 forward;
 #X text 18 340 pdkl-rev - list reversal;
 #X text 640 3 Derek Kwan 2017;
@@ -17,19 +17,20 @@
 #X text 16 298 pdkl-reduce - list reducer;
 #X text 14 234 pdkl-fyshuf - fisher yates shuffle;
 #X text 19 383 pdkl-rmap - reversed list mapper;
-#X text 14 478 pdkl-seq1 - list sequencer;
-#X text 18 431 pdkl-set - replace nth elt with list w/ var size elts
+#X text 16 501 pdkl-seq1 - list sequencer;
+#X text 20 454 pdkl-set - replace nth elt with list w/ var size elts
 ;
-#X text 9 544 pdkl-swap - swap var sized elts at two indices;
+#X text 11 567 pdkl-swap - swap var sized elts at two indices;
 #X text 16 277 pdkl-randi - list of random ints;
-#X text 10 581 pdkl-symcmp - symbol comparator;
+#X text 12 604 pdkl-symcmp - symbol comparator;
 #X text 14 140 pdkl-eltcmp - compare elements for equality;
 #X text 13 162 pdkl-eltsub - substitute matching elements of a list
 ;
 #X text 19 87 pdkl-ddrip - drip elements in chunks by demand;
-#X text 11 609 pdkl-xrndelt - non-repeating random element from a list
+#X text 13 632 pdkl-xrndelt - non-repeating random element from a list
 ;
 #X text 19 409 pdkl-rpt1 - repeat x elts starting with elt y z times
 ;
-#X text 10 502 pdkl-split2 - split a list into 2;
-#X text 9 523 pdkl-split3 - split a list into 3;
+#X text 12 525 pdkl-split2 - split a list into 2;
+#X text 11 546 pdkl-split3 - split a list into 3;
+#X text 21 436 pdkl-rpt2 - a more sophisticated repeater;
