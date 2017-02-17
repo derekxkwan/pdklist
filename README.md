@@ -24,6 +24,7 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-setf! - replace nth entry of a list with float
 - pdkl-seq1 - list sequencer
 - pdkl-split2 - split a list into 2
+- pdkl-split3 - split a list into 3
 - pdkl-swap - swap variable sized elements at two indices
 - pdkl-swapf - swap floats at two indices
 - pdkl-symcmp - symbol comparator
