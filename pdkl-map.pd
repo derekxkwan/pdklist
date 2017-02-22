@@ -1,11 +1,10 @@
-#N canvas 447 194 917 457 12;
+#N canvas 587 197 917 457 12;
 #X obj 193 125 pdklist/pdkl-drip;
 #X obj 485 208 outlet;
 #X obj 202 259 pdklist/pdkl-fill;
 #X obj 362 36 inlet;
 #X obj 204 317 outlet;
 #X obj 198 32 inlet;
-#X obj 198 76 t a b b;
 #X text 411 37 map insert;
 #X text 483 179 map send;
 #X text 250 34 input;
@@ -18,10 +17,11 @@
 #X text 693 55 gpl v 3;
 #X text 689 12 Derek Kwan 2017;
 #X text 15 12 pdkl-map - list map;
+#X obj 198 76 t a b;
 #X connect 0 0 1 0;
 #X connect 0 1 2 1;
 #X connect 2 0 4 0;
 #X connect 3 0 2 0;
-#X connect 5 0 6 0;
-#X connect 6 0 0 0;
-#X connect 6 1 2 2;
+#X connect 5 0 18 0;
+#X connect 18 0 0 0;
+#X connect 18 1 2 2;
