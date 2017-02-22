@@ -1,38 +1,39 @@
-#N canvas 811 251 1047 568 12;
+#N canvas 809 253 1047 568 12;
 #X text 18 57 pdkl-cup - count up from lower to upper-1;
 #X text 14 186 pdkl-faro - faro shuffle;
 #X text 14 210 pdkl-fill - accumulate entries of a list;
-#X text 17 338 pdkl-ref - get nth entry of a list;
-#X text 14 383 pdkl-rfill - accumulate entries of a list in reverse
+#X text 12 358 pdkl-ref - get nth entry of a list;
+#X text 9 403 pdkl-rfill - accumulate entries of a list in reverse
 ;
 #X text 23 6 pdklist;
 #X text 19 28 a bunch of list abstractions;
 #X text 645 24 gpl v 3;
-#X text 18 518 pdkl-setf! - replace nth entry of list with float;
-#X text 483 128 pdkl-swapf - swap floats at two indices;
+#X text 489 67 pdkl-setf! - replace nth entry of list with float;
+#X text 483 173 pdkl-swapf - swap floats at two indices;
 #X text 17 114 pdkl-drip - output elements 1-by-1 forward;
-#X text 18 361 pdkl-rev - list reversal;
+#X text 13 381 pdkl-rev - list reversal;
 #X text 640 3 Derek Kwan 2017;
 #X text 14 254 pdkl-map - list mapper;
-#X text 16 319 pdkl-reduce - list reducer;
+#X text 11 339 pdkl-reduce - list reducer;
 #X text 14 234 pdkl-fyshuf - fisher yates shuffle;
-#X text 19 404 pdkl-rmap - reversed list mapper;
-#X text 489 45 pdkl-seq1 - list sequencer;
-#X text 19 497 pdkl-set - replace nth elt with list w/ var size elts
+#X text 14 424 pdkl-rmap - reversed list mapper;
+#X text 489 90 pdkl-seq1 - list sequencer;
+#X text 490 46 pdkl-set - replace nth elt with list w/ var size elts
 ;
-#X text 484 111 pdkl-swap - swap var sized elts at two indices;
-#X text 16 298 pdkl-randi - list of random ints;
-#X text 485 148 pdkl-symcmp - symbol comparator;
+#X text 484 156 pdkl-swap - swap var sized elts at two indices;
+#X text 11 318 pdkl-randi - list of random ints;
+#X text 485 193 pdkl-symcmp - symbol comparator;
 #X text 14 140 pdkl-eltcmp - compare elements for equality;
 #X text 13 162 pdkl-eltsub - substitute matching elements of a list
 ;
 #X text 19 87 pdkl-ddrip - drip elements in chunks by demand;
-#X text 486 176 pdkl-xrndelt - non-repeating random element from a
+#X text 486 221 pdkl-xrndelt - non-repeating random element from a
 list;
-#X text 18 452 pdkl-rpt1 - repeat x elts starting with elt y z times
+#X text 13 472 pdkl-rpt1 - repeat x elts starting with elt y z times
 ;
-#X text 485 69 pdkl-split2 - split a list into 2;
-#X text 484 90 pdkl-split3 - split a list into 3;
-#X text 20 479 pdkl-rpt2 - a more sophisticated repeater;
-#X text 17 428 pdkl-rot - rotate list by x elts;
-#X text 11 278 pdkl-memq - return sublist starting at comparator;
+#X text 485 114 pdkl-split2 - split a list into 2;
+#X text 484 135 pdkl-split3 - split a list into 3;
+#X text 15 499 pdkl-rpt2 - a more sophisticated repeater;
+#X text 12 448 pdkl-rot - rotate list by x elts;
+#X text 6 298 pdkl-memq - return sublist starting at comparator;
+#X text 10 274 pdkl-map2 - map using a second list as argts;
