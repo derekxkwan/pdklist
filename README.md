@@ -4,6 +4,7 @@ gpl v 3 pd vanilla list abstractions
 
 - pdkl-cup - count up from lower to upper - 1
 - pdkl-ddrip - drip atoms on demand in chunks
+- pdkl-ddrip2 - looping element dripper
 - pdkl-dinterl2 - deinterlace into 2 lists
 - pdkl-drip - output elements of varying size 1-by-1 
 - pdkl-eltcmp - element comparator

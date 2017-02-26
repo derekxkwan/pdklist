@@ -1,4 +1,4 @@
-#N canvas 805 257 1047 568 12;
+#N canvas 803 259 1047 568 12;
 #X text 18 57 pdkl-cup - count up from lower to upper-1;
 #X text 19 237 pdkl-faro - faro shuffle;
 #X text 19 261 pdkl-fill - accumulate entries of a list;
@@ -26,7 +26,6 @@
 #X text 14 171 pdkl-eltcmp - compare elements for equality;
 #X text 13 193 pdkl-eltsub - substitute matching elements of a list
 ;
-#X text 19 87 pdkl-ddrip - drip elements in chunks by demand;
 #X text 489 265 pdkl-xrndelt - non-repeating random element from a
 list;
 #X text 489 44 pdkl-rpt1 - repeat x elts starting with elt y z times
@@ -39,3 +38,5 @@ list;
 #X text 15 325 pdkl-map2 - map using a second list as argts;
 #X text 19 121 pdkl-dinterl2 - deinterlace into 2 lists;
 #X text 19 215 pdkl-everynth - make a list of every nth elt;
+#X text 16 83 pdkl-ddrip - drip elements in chunks by demand;
+#X text 15 104 pdkl-ddrip2 - looping element dripper;
