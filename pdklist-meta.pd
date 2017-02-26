@@ -1,9 +1,9 @@
-#N canvas 807 255 1047 568 12;
+#N canvas 805 257 1047 568 12;
 #X text 18 57 pdkl-cup - count up from lower to upper-1;
-#X text 14 217 pdkl-faro - faro shuffle;
-#X text 14 241 pdkl-fill - accumulate entries of a list;
-#X text 12 389 pdkl-ref - get nth entry of a list;
-#X text 9 434 pdkl-rfill - accumulate entries of a list in reverse
+#X text 19 237 pdkl-faro - faro shuffle;
+#X text 19 261 pdkl-fill - accumulate entries of a list;
+#X text 17 409 pdkl-ref - get nth entry of a list;
+#X text 14 454 pdkl-rfill - accumulate entries of a list in reverse
 ;
 #X text 23 6 pdklist;
 #X text 19 28 a bunch of list abstractions;
@@ -11,17 +11,17 @@
 #X text 492 111 pdkl-setf! - replace nth entry of list with float;
 #X text 486 217 pdkl-swapf - swap floats at two indices;
 #X text 17 145 pdkl-drip - output elements 1-by-1 forward;
-#X text 13 412 pdkl-rev - list reversal;
+#X text 18 432 pdkl-rev - list reversal;
 #X text 640 3 Derek Kwan 2017;
-#X text 14 285 pdkl-map - list mapper;
-#X text 11 370 pdkl-reduce - list reducer;
-#X text 14 265 pdkl-fyshuf - fisher yates shuffle;
-#X text 14 455 pdkl-rmap - reversed list mapper;
+#X text 19 305 pdkl-map - list mapper;
+#X text 16 390 pdkl-reduce - list reducer;
+#X text 19 285 pdkl-fyshuf - fisher yates shuffle;
+#X text 19 475 pdkl-rmap - reversed list mapper;
 #X text 492 134 pdkl-seq1 - list sequencer;
 #X text 493 90 pdkl-set - replace nth elt with list w/ var size elts
 ;
 #X text 487 200 pdkl-swap - swap var sized elts at two indices;
-#X text 11 349 pdkl-randi - list of random ints;
+#X text 16 369 pdkl-randi - list of random ints;
 #X text 488 237 pdkl-symcmp - symbol comparator;
 #X text 14 171 pdkl-eltcmp - compare elements for equality;
 #X text 13 193 pdkl-eltsub - substitute matching elements of a list
@@ -34,7 +34,8 @@ list;
 #X text 488 158 pdkl-split2 - split a list into 2;
 #X text 487 179 pdkl-split3 - split a list into 3;
 #X text 491 66 pdkl-rpt2 - a more sophisticated repeater;
-#X text 12 479 pdkl-rot - rotate list by x elts;
-#X text 6 329 pdkl-memq - return sublist starting at comparator;
-#X text 10 305 pdkl-map2 - map using a second list as argts;
+#X text 17 499 pdkl-rot - rotate list by x elts;
+#X text 11 349 pdkl-memq - return sublist starting at comparator;
+#X text 15 325 pdkl-map2 - map using a second list as argts;
 #X text 19 121 pdkl-dinterl2 - deinterlace into 2 lists;
+#X text 19 215 pdkl-everynth - make a list of every nth elt;
