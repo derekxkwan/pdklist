@@ -1,45 +1,46 @@
-#N canvas 801 261 1047 568 12;
-#X text 18 57 pdkl-cup - count up from lower to upper-1;
-#X text 19 237 pdkl-faro - faro shuffle;
-#X text 19 261 pdkl-fill - accumulate entries of a list;
-#X text 17 488 pdkl-ref - get nth entry of a list;
-#X text 548 79 pdkl-rfill - accumulate entries of a list in reverse
+#N canvas 799 263 1047 568 12;
+#X text 18 58 pdkl-cup - count up from lower to upper-1;
+#X text 22 265 pdkl-faro - faro shuffle;
+#X text 22 289 pdkl-fill - accumulate entries of a list;
+#X text 568 85 pdkl-ref - get nth entry of a list;
+#X text 563 132 pdkl-rfill - accumulate entries of a list in reverse
 ;
 #X text 23 6 pdklist;
 #X text 19 28 a bunch of list abstractions;
 #X text 645 24 gpl v 3;
-#X text 554 221 pdkl-setf! - replace nth entry of list with float;
-#X text 548 327 pdkl-swapf - swap floats at two indices;
-#X text 17 145 pdkl-drip - output elements 1-by-1 forward;
-#X text 552 57 pdkl-rev - list reversal;
+#X text 569 274 pdkl-setf! - replace nth entry of list with float;
+#X text 563 380 pdkl-swapf - swap floats at two indices;
+#X text 20 173 pdkl-drip - output elements 1-by-1 forward;
+#X text 567 110 pdkl-rev - list reversal;
 #X text 640 3 Derek Kwan 2017;
-#X text 19 384 pdkl-map - list mapper;
-#X text 16 469 pdkl-reduce - list reducer;
-#X text 19 285 pdkl-fyshuf - fisher yates shuffle;
-#X text 553 100 pdkl-rmap - reversed list mapper;
-#X text 554 244 pdkl-seq1 - list sequencer;
-#X text 555 200 pdkl-set - replace nth elt with list w/ var size elts
+#X text 22 412 pdkl-map - list mapper;
+#X text 567 66 pdkl-reduce - list reducer;
+#X text 22 313 pdkl-fyshuf - fisher yates shuffle;
+#X text 568 153 pdkl-rmap - reversed list mapper;
+#X text 569 297 pdkl-seq1 - list sequencer;
+#X text 570 253 pdkl-set - replace nth elt with list w/ var size elts
 ;
-#X text 549 310 pdkl-swap - swap var sized elts at two indices;
-#X text 16 448 pdkl-randi - list of random ints;
-#X text 550 347 pdkl-symcmp - symbol comparator;
-#X text 14 171 pdkl-eltcmp - compare elements for equality;
-#X text 13 193 pdkl-eltsub - substitute matching elements of a list
+#X text 564 363 pdkl-swap - swap var sized elts at two indices;
+#X text 567 45 pdkl-randi - list of random ints;
+#X text 565 400 pdkl-symcmp - symbol comparator;
+#X text 17 199 pdkl-eltcmp - compare elements for equality;
+#X text 16 221 pdkl-eltsub - substitute matching elements of a list
 ;
-#X text 551 375 pdkl-xrndelt - non-repeating random element from a
+#X text 566 428 pdkl-xrndelt - non-repeating random element from a
 list;
-#X text 551 154 pdkl-rpt1 - repeat x elts starting with elt y z times
+#X text 566 207 pdkl-rpt1 - repeat x elts starting with elt y z times
 ;
-#X text 550 268 pdkl-split2 - split a list into 2;
-#X text 549 289 pdkl-split3 - split a list into 3;
-#X text 553 176 pdkl-rpt2 - a more sophisticated repeater;
-#X text 551 124 pdkl-rot - rotate list by x elts;
-#X text 11 428 pdkl-memq - return sublist starting at comparator;
-#X text 15 404 pdkl-map2 - map using a second list as argts;
-#X text 19 121 pdkl-dinterl2 - deinterlace into 2 lists;
-#X text 19 215 pdkl-everynth - make a list of every nth elt;
-#X text 16 83 pdkl-ddrip - drip elements in chunks by demand;
-#X text 15 104 pdkl-ddrip2 - looping element dripper;
-#X text 16 306 pdkl-interl2 - interlace 2 lists;
-#X text 16 353 pdkl-interl4 - interlace 4 lists;
-#X text 16 328 pdkl-interl3 - interlace 3 lists;
+#X text 565 321 pdkl-split2 - split a list into 2;
+#X text 564 342 pdkl-split3 - split a list into 3;
+#X text 568 229 pdkl-rpt2 - a more sophisticated repeater;
+#X text 566 177 pdkl-rot - rotate list by x elts;
+#X text 14 456 pdkl-memq - return sublist starting at comparator;
+#X text 18 432 pdkl-map2 - map using a second list as argts;
+#X text 22 149 pdkl-dinterl2 - deinterlace into 2 lists;
+#X text 22 243 pdkl-everynth - make a list of every nth elt;
+#X text 19 111 pdkl-ddrip - drip elements in chunks by demand;
+#X text 18 132 pdkl-ddrip2 - looping element dripper;
+#X text 19 334 pdkl-interl2 - interlace 2 lists;
+#X text 19 381 pdkl-interl4 - interlace 4 lists;
+#X text 19 356 pdkl-interl3 - interlace 3 lists;
+#X text 18 83 pdkl-count - count up or down in [lower \, upper);
