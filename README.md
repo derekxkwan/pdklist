@@ -15,6 +15,7 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-fyshuf - fisher-yates shuffle
 - pdkl-interl2 - interlace 2 lists
 - pdkl-interl3 - interlace 3 lists
+- pdkl-interl4 - interlace 4 lists
 - pdkl-map - list mapper
 - pdkl-map2 - map using a second list as arguments
 - pdkl-memq - return sublist starting at comparator
