@@ -1,4 +1,4 @@
-#N canvas 80 201 795 525 12;
+#N canvas 78 201 795 525 12;
 #X obj 497 26 inlet;
 #X obj 498 57 list split 1;
 #X text 552 29 compare;
@@ -23,7 +23,7 @@
 #X text 24 139 none;
 #X text 30 275 OUTLETS:;
 #X text 30 298 output list;
-#X obj 390 293 pdklist/pdkl-eltcmp;
+#X obj 390 293 pdkl-eltcmp;
 #X connect 0 0 1 0;
 #X connect 1 0 24 1;
 #X connect 3 0 6 0;

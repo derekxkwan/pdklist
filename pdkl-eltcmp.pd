@@ -1,4 +1,4 @@
-#N canvas 555 225 1008 605 12;
+#N canvas 553 225 1008 605 12;
 #X obj 240 56 inlet;
 #X obj 238 119 route float symbol;
 #X obj 530 74 inlet;
@@ -24,7 +24,6 @@
 #X obj 389 363 spigot;
 #X obj 240 81 t a b;
 #X msg 404 97 0;
-#X obj 489 404 pdklist/pdkl-symcmp;
 #X text 391 269 don't bother comparing if types not equal;
 #X text 14 9 pdkl-eltcmp;
 #X text 13 30 compare elements for equality;
@@ -36,6 +35,7 @@
 #X text 831 6 derek kwan 2017;
 #X text 831 23 pdklist;
 #X text 829 43 gpl v 3;
+#X obj 489 404 pdkl-symcmp;
 #X connect 0 0 23 0;
 #X connect 1 0 4 0;
 #X connect 1 1 14 0;
@@ -49,7 +49,7 @@
 #X connect 6 0 11 1;
 #X connect 10 0 11 0;
 #X connect 11 0 17 0;
-#X connect 12 0 25 1;
+#X connect 12 0 36 1;
 #X connect 12 1 13 0;
 #X connect 13 0 11 1;
 #X connect 14 0 22 0;
@@ -62,9 +62,9 @@
 #X connect 18 0 20 0;
 #X connect 20 0 19 0;
 #X connect 21 0 16 0;
-#X connect 22 0 25 0;
+#X connect 22 0 36 0;
 #X connect 23 0 1 0;
 #X connect 23 1 24 0;
 #X connect 24 0 22 1;
 #X connect 24 0 21 1;
-#X connect 25 0 19 0;
+#X connect 36 0 19 0;

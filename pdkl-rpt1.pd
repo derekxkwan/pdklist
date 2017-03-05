@@ -1,4 +1,4 @@
-#N canvas 608 327 1268 615 12;
+#N canvas 606 327 1268 615 12;
 #X obj 322 92 t b l b;
 #X obj 275 145 list;
 #X obj 438 275 f;
@@ -35,7 +35,7 @@
 #X text 1 247 elt to rpt (idx 0);
 #X obj 413 341 t f b f, f 16;
 #X text 8 48 rpt x elts starting with y z times;
-#X obj 303 515 pdklist/pdkl-fill, f 40;
+#X obj 303 515 pdkl-fill, f 40;
 #X connect 0 0 6 0;
 #X connect 0 1 1 1;
 #X connect 0 2 21 0;
