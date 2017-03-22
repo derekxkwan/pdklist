@@ -1,4 +1,4 @@
-#N canvas 797 263 1047 568 12;
+#N canvas 795 263 1047 568 12;
 #X text 18 58 pdkl-cup - count up from lower to upper-1;
 #X text 22 265 pdkl-faro - faro shuffle;
 #X text 22 289 pdkl-fill - accumulate entries of a list;
@@ -33,7 +33,7 @@ list;
 #X text 568 343 pdkl-split2 - split a list into 2;
 #X text 567 364 pdkl-split3 - split a list into 3;
 #X text 568 229 pdkl-rpt2 - a more sophisticated repeater;
-#X text 566 177 pdkl-rot - rotate list by x elts;
+#X text 566 174 pdkl-rot - rotate list by x elts;
 #X text 14 456 pdkl-memq - return sublist starting at comparator;
 #X text 18 432 pdkl-map2 - map using a second list as argts;
 #X text 22 149 pdkl-dinterl2 - deinterlace into 2 lists;
@@ -46,3 +46,4 @@ list;
 #X text 18 83 pdkl-count - count up or down in [lower \, upper);
 #X text 566 320 pdkl-seqct1 - sequenced counter (helpful for indexing!)
 ;
+#X text 566 191 pdkl-rpatt1 - random pattern generator;
