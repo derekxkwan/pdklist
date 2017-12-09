@@ -37,6 +37,7 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-seqct1 - sequenced counter (helpful for indexing!)
 - pdkl-split2 - split a list into 2
 - pdkl-split3 - split a list into 3
+- pdkl-stut1 - stutter elts of a list x times in y chunks
 - pdkl-swap - swap variable sized elements at two indices
 - pdkl-swapf - swap floats at two indices
 - pdkl-symcmp - symbol comparator
