@@ -1,7 +1,6 @@
 # pdklist
 gpl v 3 pd vanilla list abstractions
 
-
 - pdkl-cup - count up from lower to upper - 1
 - pdkl-cup - count up or down in [lower,upper)
 - pdkl-ddrip - drip atoms on demand in chunks
@@ -44,3 +43,8 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-swapf - swap floats at two indices
 - pdkl-symcmp - symbol comparator
 - pdkl-xrndelt- non-repeating random element from a list
+
+
+GENERATORS
+- pdkl-arith - arithmetic series generator
+- pdkl-geom - geometric series generator
