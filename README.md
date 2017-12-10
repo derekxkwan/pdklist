@@ -35,6 +35,8 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-setf! - replace nth entry of a list with float
 - pdkl-seq1 - list sequencer
 - pdkl-seqct1 - sequenced counter (helpful for indexing!)
+- pdkl-sieve - only let x-chunk elements through as defined by a list
+- pdkl-sieve2 - only let x-chunk elts through as defined by a list but (replace other elts with a float)
 - pdkl-split2 - split a list into 2
 - pdkl-split3 - split a list into 3
 - pdkl-stut1 - stutter elts of a list x times in y chunks
