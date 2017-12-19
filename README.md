@@ -28,7 +28,7 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-rmap - reversed list mapper
 - pdkl-rot - rotate list by x elts
 - pdkl-rpatt1 - random pattern generator
-- pdkl-rpt1 - repeat x elts starting with y z times
+- pdkl-rpt - repeat x elts starting with y z times
 - pdkl-rpt2 - a more sophistsicated repeater
 - pdkl-set! - replace nth elt with list with variable sized elements
 - pdkl-setf! - replace nth entry of a list with float
