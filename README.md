@@ -14,6 +14,7 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-faro - faro shuffle
 - pdkl-fill - accumulate entries of a list
 - pdkl-fyshuf - fisher-yates shuffle
+- pdkl-insert - insert provided elts into given list at given idx
 - pdkl-interl2 - interlace 2 lists
 - pdkl-interl3 - interlace 3 lists
 - pdkl-interl4 - interlace 4 lists
