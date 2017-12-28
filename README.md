@@ -1,6 +1,7 @@
 # pdklist
 gpl v 3 pd vanilla list abstractions
 
+## GENERAL
 - pdkl-cup - count up from lower to upper - 1
 - pdkl-cup - count up or down in [lower,upper)
 - pdkl-ddrip - drip atoms on demand in chunks
@@ -46,6 +47,7 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-xrndelt- non-repeating random element from a list
 
 
-GENERATORS
+## GENERATORS
 - pdkl-arith - arithmetic series generator
 - pdkl-geom - geometric series generator
+- pdkl-numpatt - generate patterns from number lists
