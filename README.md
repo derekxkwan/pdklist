@@ -32,6 +32,7 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-rpatt1 - random pattern generator
 - pdkl-rpt - repeat x elts starting with y z times
 - pdkl-rpt2 - a more sophistsicated repeater
+- pdlk-rrand - list of random floats
 - pdkl-set! - replace nth elt with list with variable sized elements
 - pdkl-setf! - replace nth entry of a list with float
 - pdkl-seq1 - list sequencer
