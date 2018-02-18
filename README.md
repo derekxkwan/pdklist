@@ -22,6 +22,7 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-map - list mapper
 - pdkl-map2 - map using a second list as arguments
 - pdkl-memq - return sublist starting at comparator
+- pdkl-prepend - list prepend with trim
 - pdkl-randi - list of random ints
 - pdkl-reduce - list reducer
 - pdkl-ref - get nth entry of a list

@@ -1,0 +1,14 @@
+#N canvas 342 303 499 432 12;
+#X obj 61 147 list prepend;
+#X obj 61 171 list trim;
+#X text 24 20 pdkl-prepend;
+#X text 308 71 gpl v 3;
+#X text 308 53 pdklist;
+#X obj 59 87 inlet;
+#X obj 145 82 inlet;
+#X obj 61 195 outlet;
+#X text 305 35 Derek Kwan 2018;
+#X connect 0 0 1 0;
+#X connect 1 0 7 0;
+#X connect 5 0 0 0;
+#X connect 6 0 0 1;
