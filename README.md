@@ -22,6 +22,8 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-map - list mapper
 - pdkl-map2 - map using a second list as arguments
 - pdkl-memq - return sublist starting at comparator
+- pakl-pathjoin - join list as filepath
+- pdkl-pathsplit - split path into constituent parts
 - pdkl-prepend - list prepend with trim
 - pdkl-randi - list of random ints
 - pdkl-reduce - list reducer
