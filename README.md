@@ -2,7 +2,7 @@
 gpl v 3 pd vanilla list abstractions
 
 ## GENERAL
-- pdkl-cup - count up from lower to upper - 1
+- pdkl-charsplit - split incoming symbol into components by given char
 - pdkl-cup - count up or down in [lower,upper)
 - pdkl-ddrip - drip atoms on demand in chunks
 - pdkl-ddrip2 - looping element dripper
