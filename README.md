@@ -14,6 +14,7 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-everynth - get every nth elt of a list
 - pdkl-faro - faro shuffle
 - pdkl-fill - accumulate entries of a list
+- pdkl-filln - accumulate entries into n-elt lists
 - pdkl-fyshuf - fisher-yates shuffle
 - pdkl-insert - insert provided elts into given list at given idx
 - pdkl-interl2 - interlace 2 lists
