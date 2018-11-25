@@ -2,7 +2,6 @@
 gpl v 3 pd vanilla list abstractions
 
 ## GENERAL
-- pdkl-charsplit - split incoming symbol into components by given char
 - pdkl-cup - count up or down in [lower,upper)
 - pdkl-ddrip - drip atoms on demand in chunks
 - pdkl-ddrip2 - looping element dripper
@@ -49,6 +48,7 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-swap - swap variable sized elements at two indices
 - pdkl-swapf - swap floats at two indices
 - pdkl-symcmp - symbol comparator
+- pdkl-symsplit - split incoming symbol into components by given char
 - pdkl-xrndelt- non-repeating random element from a list
 
 
