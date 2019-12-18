@@ -26,6 +26,7 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-pathsplit - split path into constituent parts
 - pdkl-prepend - list prepend with trim
 - pdkl-randi - list of random ints
+- pdkl-randi2 - list of random ints within list of ranges
 - pdkl-reduce - list reducer
 - pdkl-ref - get nth entry of a list
 - pdkl-rev - list reversal
@@ -35,7 +36,8 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-rpatt1 - random pattern generator
 - pdkl-rpt - repeat x elts starting with y z times
 - pdkl-rpt2 - a more sophistsicated repeater
-- pdlk-rrand - list of random floats
+- pdkl-rrand - list of random floats
+- pdkl-rrand2 - list of random floats within list of ranges
 - pdkl-set! - replace nth elt with list with variable sized elements
 - pdkl-setf! - replace nth entry of a list with float
 - pdkl-seq1 - list sequencer
