@@ -34,6 +34,7 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-ref - get nth entry of a list
 - pdkl-rev - list reversal
 - pdkl-rfill - accumulate entries of a list in reverse
+- pdkl-rgate - random gate with weight list (needs iemguts for now)
 - pdkl-rmap - reversed list mapper
 - pdkl-rot - rotate list by x elts
 - pdkl-rpatt1 - random pattern generator
