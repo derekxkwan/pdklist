@@ -28,6 +28,7 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-randi - list of random ints
 - pdkl-randi2 - list of random ints within list of ranges
 - pdkl-reduce - list reducer
+- pdkl-reduce2 - list reducer (but keeps track of steps)
 - pdkl-ref - get nth entry of a list
 - pdkl-rev - list reversal
 - pdkl-rfill - accumulate entries of a list in reverse
