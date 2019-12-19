@@ -54,6 +54,7 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-swapf - swap floats at two indices
 - pdkl-symcmp - symbol comparator
 - pdkl-symsplit - split incoming symbol into components by given char
+- pdkl-wrand - weighted random (needs iemguts for now for canvasargs)
 - pdkl-xrndelt- non-repeating random element from a list
 
 
