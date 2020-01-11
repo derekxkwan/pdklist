@@ -5,6 +5,7 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-cup - count up or down in [lower,upper)
 - pdkl-ddrip - drip atoms on demand in chunks
 - pdkl-ddrip2 - looping element dripper
+- pdkl-defaults - populate outgoing list with defaults
 - pdkl-dinterl2 - deinterlace into 2 lists
 - pdkl-dot - dot product of two lists
 - pdkl-drip - output elements of varying size 1-by-1 
