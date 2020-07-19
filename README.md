@@ -7,6 +7,7 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-ddrip2 - looping element dripper
 - pdkl-defaults - populate outgoing list with defaults
 - pdkl-dinterl2 - deinterlace into 2 lists
+- pdkl-dirjoin - take list of directories and join into path
 - pdkl-dot - dot product of two lists
 - pdkl-drip - output elements of varying size 1-by-1 
 - pdkl-eltcmp - element comparator
@@ -18,6 +19,7 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-find - find first elt matching comparator (else bang)s
 - pdkl-fyshuf - fisher-yates shuffle
 - pdkl-insert - insert provided elts into given list at given idx
+- pdkl-intersp - put thing in between every element of a list
 - pdkl-interl2 - interlace 2 lists
 - pdkl-interl3 - interlace 3 lists
 - pdkl-interl4 - interlace 4 lists
@@ -25,7 +27,8 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-map - list mapper
 - pdkl-map2 - map using a second list as arguments
 - pdkl-memq - return sublist starting at comparator
-- pakl-pathjoin - join list as filepath
+- pdkl-pathjoin - join parts of phath into full path
+- pdkl-pathparts - spilt full path into individual components
 - pdkl-pathsplit - split path into constituent parts
 - pdkl-prepend - list prepend with trim
 - pdkl-randi - list of random ints
@@ -55,6 +58,7 @@ gpl v 3 pd vanilla list abstractions
 - pdkl-swap - swap variable sized elements at two indices
 - pdkl-swapf - swap floats at two indices
 - pdkl-symcmp - symbol comparator
+- pdkl-symjoin - join list of symbols together with a symbol
 - pdkl-symsplit - split incoming symbol into components by given char
 - pdkl-wrand - weighted random (needs iemguts for now for canvasargs)
 - pdkl-xrndelt- non-repeating random element from a list
